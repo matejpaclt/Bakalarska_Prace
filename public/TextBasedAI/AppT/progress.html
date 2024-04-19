@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LifeApp</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/36b5f19bda.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <i class="fas fa-bell"></i> <span class="title">LifeApp</span>
+      <i class="fas fa-user"></i>
+    </header>
+    <main>
+      <section class="weekly-score">
+        <div class="score-container">
+          <h3 class="top-left">Nutrition</h3>
+          <h3 class="top-right">Exercise</h3>
+          <span class="score">0/300</span>
+          <h3 class="bottom-left">Sleep</h3>
+          <h3 class="bottom-right">Habits</h3>
+        </div>
+        <button class="test-take">Take the test</button>
+      </section>
+
+      <section class="streaks">
+        <div class="current-streak">
+          <h3>Current Streak</h3>
+          <span>0 days</span>
+        </div>
+        <div class="longest-streak">
+          <h3>Longest Streak</h3>
+          <span>0 days</span>
+        </div>
+      </section>
+
+      <section class="graphs">
+        <div class="graph-container">
+          <h3>Sleep Graph</h3>
+          <img src="sleep_graph.png" alt="Sleep Graph" />
+        </div>
+      </section>
+      <section class="graphs">
+        <div class="graph-container">
+          <h3>Weight Graph</h3>
+          <img src="strength_graph.png" alt="Weight Graph" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <button onclick="location.href='index.html'">
+        <i class="fas fa-home"></i> <span>Overview</span>
+      </button>
+      <button onclick="location.href='programs.html'">
+        <i class="fas fa-dumbbell"></i> <span>Programs</span>
+      </button>
+      <button class="active">
+        <i class="fas fa-chart-line"></i> <span>Progress</span>
+      </button>
+      <button onclick="location.href='premium.html'">
+        <i class="fas fa-star"></i> <span>Premium</span>
+      </button>
+      <button onclick="location.href='recipes.html'">
+        <i class="fas fa-book-open"></i> <span>Recipes</span>
+      </button>
+    </footer>
+  </body>
+</html>

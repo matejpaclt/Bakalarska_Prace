@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LifeApp</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/36b5f19bda.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <i class="fas fa-bell"></i> <span class="title">LifeApp</span>
+      <i class="fas fa-user"></i>
+    </header>
+
+    <main class="content">
+      <section class="stats">
+        <div class="stat side">
+          <span>Kcal Eaten</span>
+          <p>1200</p>
+        </div>
+        <div class="stat circle">
+          <div class="inner">
+            <span>Kcal Left</span>
+            <p>800</p>
+          </div>
+        </div>
+        <div class="stat side">
+          <span>Kcal Burned</span>
+          <p>400</p>
+        </div>
+      </section>
+
+      <section class="food-intake">
+        <div class="intake-stat">
+          <span>Protein</span>
+          <p>50 / 200 g</p>
+          <div class="progress-bar"></div>
+        </div>
+        <div class="intake-stat">
+          <span>Carbs</span>
+          <p>150 / 350 g</p>
+          <div class="progress-bar"></div>
+        </div>
+        <div class="intake-stat">
+          <span>Fat</span>
+          <p>20 / 70 g</p>
+          <div class="progress-bar"></div>
+        </div>
+      </section>
+
+      <section class="day-selector">
+        <i class="fas fa-chevron-left"></i>
+        <span>TODAY, 26. MAR</span>
+        <i class="fas fa-chevron-right"></i>
+      </section>
+      <section class="water">
+        <h3>Water</h3>
+        <div class="water-glasses">
+          <i class="fas fa-glass-water"></i>
+          <i class="fas fa-glass-water"></i>
+          <i class="fas fa-glass-water"></i>
+          <i class="fas fa-glass-water"></i>
+          <i class="fas fa-glass-water"></i>
+          <i class="fas fa-glass-water"></i>
+          <i class="fas fa-glass-water"></i>
+          <i class="fas fa-glass-water"></i>
+          <i class="fas fa-glass-water"></i>
+          <i class="fas fa-glass-water"></i>
+        </div>
+      </section>
+      <section class="meal-options">
+        <div class="meal">
+          <i class="fas fa-utensils"></i> <span>Breakfast (400 kcal)</span>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="meal">
+          <i class="fas fa-utensil-spoon"></i> <span>Lunch (500 kcal)</span>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="meal">
+          <i class="fas fa-bowl-food"></i> <span>Dinner (600 kcal)</span>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="meal">
+          <i class="fas fa-cookie-bite"></i> <span>Snacks (200 kcal)</span>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="meal">
+          <i class="fas fa-walking"></i> <span>Exercise</span>
+          <i class="fas fa-plus"></i>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <button class="active">
+        <i class="fas fa-home"></i> <span>Overview</span>
+      </button>
+      <button onclick="location.href='programs.html'">
+        <i class="fas fa-dumbbell"></i> <span>Programs</span>
+      </button>
+      <button onclick="location.href='progress.html'">
+        <i class="fas fa-chart-line"></i> <span>Progress</span>
+      </button>
+      <button><i class="fas fa-star"></i> <span>Premium</span></button>
+      <button><i class="fas fa-book-open"></i> <span>Recipes</span></button>
+    </footer>
+  </body>
+</html>

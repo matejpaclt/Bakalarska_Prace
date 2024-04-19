@@ -1,0 +1,12 @@
+:root {
+  --label-colorslc-l-secondary: rgba(60, 60, 67, 0.6);
+  --system-materialssm-l-thick: rgba(250, 250, 250, 0.93);
+  --label-colorslc-l-primary: rgba(0, 0, 0, 1);
+  --system-colorssc-l-blue: rgba(10, 122, 255, 1);
+  --default-size-body-font-family: "SF Pro Text", Helvetica;
+  --default-size-body-font-weight: 400;
+  --default-size-body-font-size: 17px;
+  --default-size-body-letter-spacing: -0.40799999237060547px;
+  --default-size-body-line-height: 22px;
+  --default-size-body-font-style: normal;
+}
